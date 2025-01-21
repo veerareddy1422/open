@@ -17,3 +17,5 @@ spec:
         image: veerareddy1422/ecomm
         ports:
         - containerPort: 80
+    imagePullSecrets: # Add if the image is private
+      - name: my-docker-secret
